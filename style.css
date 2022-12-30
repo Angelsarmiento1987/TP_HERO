@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+   font-family: Hanken Grotesk;
+}
+
+body{
+    background-color: #F3F1EF;
+}
+
+/*HEADER CSS*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-top: 1rem;
+}
+.contH1{
+    display: flex;
+    align-items: center;
+    
+    
+    gap: 0.5rem;
+   
+    
+}
+h1{
+    font-weight: 700;
+    font-size: 1.8rem;
+    
+    
+    
+ 
+   
+}
+.logoSol{
+    color:#E84D34;
+    font-size: 1.5rem;
+    
+    
+}
+.logoS{
+    width: 1.9rem;
+  
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-inline: 1rem;
+}
+.whiteB{
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+  padding-inline: 1rem;
+  padding-top: 0.3rem ;
+  padding-bottom: 0.3rem;
+  background-color: #F3F1EF;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.whiteB:hover{
+    color: #F3F1EF;
+    background-color: #E84D34;
+}
+.menu:hover{
+    color: #E84D34;
+}
+
+.icon{
+   display: none;
+}
+.icon:hover{
+    color: #E84D34;
+}
+
+/* CSS HERO*/
+
+.hero{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+  
+}
+.contHero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 68vh;
+   
+}
+.foto{
+    width: 35rem;
+    
+}
+h2{
+    font-size: 3rem;
+}
+.london{
+    text-decoration: line-through;
+}
+h3{
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+.blackB{
+    background-color: black;
+    color: white;
+    font-family: Hanken Grotesk;
+    font-weight: 600;
+  padding-inline: 1rem;
+  padding-top: 0.3rem ;
+  padding-bottom: 0.3rem;
+ 
+  border: 1px solid black;
+    
+}
+
+/*BARRA INCLINADA CSS*/
+.barraInclinada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171513;
+    height: 4.5rem;
+ 
+    transform: skewY(-3deg); /*con skewY coloco la barra diagonal hacia arriba*/
+  
+    
+
+      
+    
+  
+
+    
+}
+.contTexto{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    font-size: 100;
+}
+
+/*MEDIAS QUERIES*/
+
+@media(max-width: 980px){
+
+    .contHero{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+    }
+    .foto{
+        width: 20rem;
+    }
+    .barraInclinada{
+        margin-top: 7rem;
+    }
+    .contTexto{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav{
+        display: none;
+    }
+    .icon{
+        display: inline;
+        font-size: 1.5rem;
+
+    }
+}
