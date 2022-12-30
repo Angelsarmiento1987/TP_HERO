@@ -98,8 +98,16 @@ h1{
 }
 .foto{
     width: 35rem;
+    animation-name: der;
+    animation-duration: 3.5s;
     
 }
+@keyframes der{
+    0%{transform:translateX(120px);}
+    100%{transform:translateX(0px);}
+
+}
+
 h2{
     font-size: 3rem;
 }
@@ -141,6 +149,7 @@ h3{
 
     
 }
+
 .contTexto{
     display: flex;
     justify-content: space-between;
